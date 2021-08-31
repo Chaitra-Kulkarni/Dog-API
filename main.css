@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.outer-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dog-images {
+    flex: 1;
+    text-align: center;
+    margin-top: 20px;
+    /* padding: 10px; */
+}
+h1, #breed {
+    text-align: center;
+}
